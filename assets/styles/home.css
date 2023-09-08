@@ -1,28 +1,27 @@
-body{
+body {
     background-color: var(--gray-100);
-}
-
-
-.card__title,
-.card__price,
-.section__title {
+  }
+  
+  .card__title,
+  .button,
+  .section__title {
     font-family: 'Insaniburger with Cheese', sans-serif;
-}
-
-.section__subtitle,
-.card__ingredients {
+  }
+  
+  .section__subtitle,
+  .card__ingredients {
     font-family: 'Bebas Neue', sans-serif;
-}
-
-.menu{
+  }
+  
+  .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
     padding: 38px 45px 98px;
-}
-
-.section__title {
+  }
+  
+  .section__title {
     color: var(--black);
     font-size: 64px;
     line-height: 72px;
@@ -36,26 +35,25 @@ body{
     line-height: 48px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
-
-.section__subtitle span {
+  
+  .section__subtitle span {
     font-weight: 700;
-
-}
-
-.section__title,
-.section__subtitle {
+  }
+  
+  .section__title,
+  .section__subtitle {
+    text-transform: uppercase;
     text-align: center;
-    text-transform: uppercase; 
-}
-
-.menu__cards {
+  }
+  
+  .menu__cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(auto, 900px));
     gap: 48px 30px;
     width: 100%;
-}
-
-.card{
+  }
+  
+  .card {
     text-transform: uppercase;
     background: #333;
     border-radius: 60px;
@@ -63,60 +61,63 @@ body{
     width: 100%;
     max-width: 900px;
     padding: 40px 0;
-}
-
-.card:nth-child(1) {
-    background-image: url(../images/menu/original.png);
-}
-.card:nth-child(2) {
-    background-image: url(../images/menu/cheese-classic.png);
-}
-.card:nth-child(3) {
-    background-image: url(../images/menu/bbq-bacon-burguer.png);
-}
-.card:nth-child(4) {
-    background-image: url(../images/menu/bacon-beef.png);
-}
-
-.card__title {
+  }
+  
+  .card:nth-child(1) {
+    background-image: url('../images/menu/original.png');
+  }
+  
+  .card:nth-child(2) {
+    background-image: url('../images/menu/cheese-classic.png');
+  }
+  
+  .card:nth-child(3) {
+    background-image: url('../images/menu/bbq-bacon-burguer.png');
+  }
+  
+  .card:nth-child(4) {
+    background-image: url('../images/menu/bacon-beef.png');
+  }
+  
+  .card__title {
     color: var(--primary);
     font-size: 45px;
     line-height: 50px;
-}
-
-.card__title,
-.card__ingredients,
-.card__price {
+    width: fit-content;
+  }
+  
+  .card__title,
+  .card__ingredients,
+  .card__price {
     margin-left: auto;
     margin-right: 53px;
-    width: fit-content;
-}
-
-
-.card__ingredients {
+  }
+  
+  .card__ingredients {
     text-align: right;
     margin-top: 8px;
     font-size: 30px;
     line-height: 36px;
-}
-
-
-.card__ingredients,
-.card__price{
+  }
+  
+  .card__ingredients,
+  .button--primary {
     color: var(--white);
-} 
-
-
-.card__price {
+  }
+  
+  .button--primary {
     background-color: var(--primary);
     font-size: 45px;
     line-height: 50px;
     border-radius: 16px;
-    margin-top: 28px;
     padding: 4px 12px;
-}
-
-.drinks {
+  }
+  
+  .card__price {
+    margin-top: 28px;
+  }
+  
+  .drinks {
     border: 4px solid var(--gray-900);
     border-radius: 44px;
     padding: 44px 64px;
@@ -178,8 +179,7 @@ body{
     flex-direction: column;
     align-items: center;
   }
-
-
+  
   .location {
     background-color: var(--gray-900);
     display: flex;
@@ -189,22 +189,58 @@ body{
     color: var(--white);
     padding: 64px 0 120px;
   }
-
-  .location .section__title, 
-  .location .section__subtitle{
+  
+  .location .section__title,
+  .location .section__subtitle {
     color: var(--white);
   }
-
+  
   .location__address {
     font-size: 30px;
     line-height: 36px;
     font-family: 'Bebas Neue', sans-serif;
   }
-
+  
   .location iframe {
     max-width: calc(100% - 40px);
+    border-radius: 32px;
   }
 
+
+  .footer {
+    background-color:  var(--black);
+  }
+
+  .footer .section__title,
+  .footer .section__subtitle {
+    color: var(--white);
+    text-align: left;
+  }
+
+  .footer .section__title span {
+    color: var(--primary);
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px);
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 32px 0;
+    gap: 32px;
+  }
+
+  .footer .button--primary {
+    padding: 0 36px;
+    text-transform: uppercase;
+  }
+
+  .button {
+    width: fit-content;
+    border: 0;
+  }
 
 @media (max-width: 1023px) {
     .drinks, .section__title, .section__subtitle, .card {
@@ -252,7 +288,7 @@ body{
         line-height: 20px;
     }
 
-    .card__price {
+    .button  {
         font-size: 24px;
         line-height: 20px;
     }
@@ -274,6 +310,10 @@ body{
     .location__address {
         font-size: 16px;
         line-height: 20px;
+      }
+
+      .footer__container {
+        flex-direction: column;
       }
 }
 
