@@ -242,8 +242,83 @@ body {
     border: 0;
   }
 
+  .hero-header {
+    background: linear-gradient(0deg, #12120d, #12120d), #070606;
+  }
+
+  .hero-header p,
+  .hero-header h1 {
+    color: var(--white);
+    text-align: left;
+  }
+
+  .hero-header img {
+    width: 100%;
+    max-width: 1180px;
+  }
+
+  .hero-header span {
+    color: var(--primary);
+  }
+
+  .hero-header h1 {
+    font-size: 80px;
+    line-height: 70px; 
+    font-family: "Insaniburger with Cheese",sans-serif;
+  }
+
+  .hero-header .button{
+    text-transform: uppercase;
+  }
+
+  .hero-header__container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .hero-header__content{
+    padding: 186px 0 186px 100px;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 0 0 auto;
+  }
+
+
+@media(max-width: 1535px ) {
+  .hero-header img{
+    margin-left: 0;
+  }
+
+  .hero-header__content {
+    flex: initial;
+    padding: 40px;
+  }
+}
+
+
+
+@media (max-width: 1279px) {
+  .hero-header img{
+    margin-left: 0;
+  }
+
+  .hero-header__container {
+    flex-direction: column;
+  }
+}
+
+
 @media (max-width: 1023px) {
-    .drinks, .section__title, .section__subtitle, .card {
+  .hero-header h1 {
+    font-size: 40px;
+    line-height: 36px; 
+  }  
+  
+  .drinks, .section__title, .section__subtitle, .card {
         max-width: 450px;
     }
 
