@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--black);
+    padding: 20px 36px;
+    font-family: 'Insaniburger with Cheese', sans-serif;
+    gap: 20px;
+}
+
+.navbar__title{
+    color: var(--white);
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar__brand{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar__title span {
+     color: var(--primary);
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar__links li a {
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar__links li a,
+.navbar__links .button {
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.navbar__links .button {
+    text-transform: uppercase;
+}
+
+@media(max-width: 1079px){
+    .navbar,
+    .navbar__brand {
+        flex-direction: column;
+    }
+
+    .navbar__title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .navbar__links {
+        gap: 20px;
+    }
+
+
+    .navbar__links li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navbar__links {
+        flex-direction: column;
+    }
+
+}
