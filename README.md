@@ -1,7 +1,7 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> DevBurguer </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pelo canal Código Ao Ponto para ensino de tecnologias WEB. <br/>
+Programa exclusivo e gratuito, promovido pelo canal Código Ao Ponto para ensino de tecnologias WEB atraves do seu canal no youtube https://www.youtube.com/@CodigoAoPonto. <br/>
 <!-- <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a> -->
 </p>
 
