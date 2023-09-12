@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Um site de um hamburgueria o melhor da cidade .
 
 - [Acesse o projeto finalizado, online](https://github.com/williamsramos/projeto-hamburgueria)
-
+- [Acesse o site do projeto finalizado, online](https://projeto-hamburgueria-nine.vercel.app)
 
 
 ## 🔖 Layout
