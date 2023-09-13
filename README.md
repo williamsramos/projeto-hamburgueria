@@ -2,7 +2,6 @@
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pelo canal Código Ao Ponto para ensino de tecnologias WEB atraves do seu canal no youtube https://www.youtube.com/@CodigoAoPonto. <br/>
-<!-- <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a> -->
 </p>
 
 <p align="center">
@@ -18,9 +17,9 @@ Programa exclusivo e gratuito, promovido pelo canal Código Ao Ponto para ensino
 
 <br>
 
-<!-- <p align="center">
-  <img alt="projeto Devburguer" src="#" width="100%">
-</p> -->
+<p align="center">
+  <img alt="projeto Devburguer" src="./assets/images/layout.png" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
@@ -40,7 +39,7 @@ Um site de um hamburgueria o melhor da cidade .
 
 ## 🔖 Layout
 
-<!-- Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo. -->
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/QIK5oJMHYTUQpxQgmUMGSF/LP---Deburguer?node-id=7%3A19&mode=dev). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
